@@ -6,7 +6,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import numpy as np
 
 # Load the dataset
-file_path = "/Users/huntereppley/Documents/Bioinformatics/EEG.machinelearing_data_BRMH.csv"
+file_path = "PATH-TO-EEG-DATASET"
 df = pd.read_csv(file_path)
 df.columns = df.columns.str.strip()
 
